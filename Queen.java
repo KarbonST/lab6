@@ -24,7 +24,7 @@ public class Queen {
     }
 
     /* --------------------------- Сосед слева ---------------------------- */
-    private final Queen neighbor; 
+    private final Queen neighborLeft; 
     
     
 
