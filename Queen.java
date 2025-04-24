@@ -1,4 +1,4 @@
-package eightqueens;
+package eight;
 
 import java.awt.*;
 
