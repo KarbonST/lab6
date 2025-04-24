@@ -94,7 +94,7 @@ public class Queen {
      * @param row номер строки (1...owner.rowCount(), owner.posAboveDesk(), owner.posBelowDesk())
      * @return признак того, что ферзь и его соседи слева атакуют указанную позицию
      */ 
-    public boolean canAttack(int col, int row) {
+    public boolean canAttack(int col, int rowX) {
         boolean isAttack;
         
         // Атакует ферзь
