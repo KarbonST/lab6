@@ -97,7 +97,7 @@ public class Queen {
     public boolean canAttack(int col, int row) {
         boolean isAttack;
         
-        // Атакует ферзь
+        // Атакует королева
         isAttack = (this.row() != Desk.rowAboveDesk())
                     && (row != Desk.rowBelowDesk())
                     && (this.col() == col || this.row() == row
