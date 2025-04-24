@@ -103,7 +103,7 @@ public class Queen {
                     && (this.col() == col || this.row() == row
                         || Math.abs(this.col()-col) == Math.abs(this.row() - row));
         
-        // Атакуют ли соседи, если ферзь не атакует
+        // Атакуют ли соседи, если королева не атакует
         if(!isAttack && neighbor != null)
         { isAttack = neighbor.canAttack(col, row); }
         
