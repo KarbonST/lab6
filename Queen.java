@@ -32,7 +32,7 @@ public class Queen {
 
     /* ---------------------------- Порождение ---------------------------- */
     public Queen(int col, int row, Queen neighbor) {
-        pos = new Point(col, row);
+        position = new Point(col, row);
         this.neighbor = neighbor;
     }
     
