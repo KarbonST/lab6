@@ -9,7 +9,7 @@ public class Queen {
     /* =========================== Свойства =============================== */
     
     /* ------------------------ Позиция на доске --------------------------- */
-    private Point pos;
+    protected Point pos;
 
     public int row() {
         return pos.y;
