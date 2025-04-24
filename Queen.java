@@ -40,7 +40,7 @@ public class Queen {
     
     /** Ищет НОВУЮ приемлемую позицию для себя.
     *
-    * @return признак того, что позиция найдена
+    * @return найдена ли позиция
     */
     public boolean findNewAcceptablePosition() {
         boolean isFind = false;
